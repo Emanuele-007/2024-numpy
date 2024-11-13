@@ -21,7 +21,8 @@ print ("a4",a4)
 r1 = np.random.rand(2,3)*15
 print ("r1",r1)
 
-np.random.seed(8)
+#serve per avere i risultati uguali a chiunque altro che inserisca lo stesso "seed"
+np.random.seed(18)
 r2 = np.random.rand(2,3)
 print ("r2",r2)
 
